@@ -7,7 +7,7 @@ department during N consecutivehours. Determine:
 
 #include <stdio.h>
 int main(){
-    int n, i, a[100];
+    int n, i, a[5];
     int max, min, peak, count = 0;
     float sum = 0, avg;
     printf("Enter number of hours: ");

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 int main(){
-    int a[100], n, i, pos, value, choice;
+    int a[5], n, i, pos, value, choice;
     printf("Enter number of elements: ");
     scanf("%d", &n);
     printf("Enter elements:\n");

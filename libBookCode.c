@@ -6,7 +6,7 @@ including:• 3 uppercase letters• A hyphen• 4 digits• A hyphen• 3 digit
 #include <string.h>
 #include <ctype.h>
 int main(){
-    char code[50];
+    char code[10];
     int i, valid = 1;
     printf("Enter book code: ");
     scanf("%s", code);

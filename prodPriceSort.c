@@ -8,7 +8,7 @@ sort the prices in ascending order using three differentsorting techniques:
 #include <stdio.h>
 int main(){
     int n, i, j;
-    float a[10], temp;
+    float a[5], temp;
     printf("Enter number of products: ");
     scanf("%d", &n);
     for(i = 0; i < n; i++)
@@ -35,7 +35,7 @@ int main(){
 #include <stdio.h>
 int main(){
     int n, i, j, min;
-    float a[100], temp;
+    float a[5], temp;
     printf("Enter number of products: ");
     scanf("%d", &n);
     for(i = 0; i < n; i++)
@@ -62,7 +62,7 @@ int main(){
 #include <stdio.h>
 int main(){
     int n, i, j;
-    float a[100], key;
+    float a[5], key;
     printf("Enter number of products: ");
     scanf("%d", &n);
     for(i = 0; i < n; i++)

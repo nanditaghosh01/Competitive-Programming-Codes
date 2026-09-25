@@ -8,7 +8,7 @@ determine whether thestudent exists and display their position.The program shoul
 #include <ctype.h>
 int main(){
     int n, i, choice, found = 0;
-    char name[100][50], search[50];
+    char name[10][10], search[5];
     printf("Enter number of students: ");
     scanf("%d", &n);
     printf("Enter names:\n");
